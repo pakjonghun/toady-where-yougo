@@ -12,9 +12,7 @@ const AppLayout = ({ children }) => {
 };
 
 const Container = styled.div`
-  padding: 2rem;
-  width: 100vw;
-  height: 100vh;
+  max-width: 1000px;
 `;
 
 export default AppLayout;

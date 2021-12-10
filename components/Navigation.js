@@ -38,7 +38,6 @@ const Navigation = () => {
 export default Navigation;
 
 const Conatiner = styled.div`
-  position: fixed;
   top: 0;
   width: 100%;
 `;

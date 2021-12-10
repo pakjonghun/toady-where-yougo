@@ -1,20 +1,13 @@
-import React from 'react';
 import styled from 'styled-components';
-import ProgressBar from '../components/ProgressBar';
+import OptionsLayout from '../components/OptionsLayout';
+import Option1 from '../components/Options/Option1';
 
-const Options = ({ children }) => {
+const Option = () => {
   return (
-    <Container>
-      <ProgressBar />
-      {children}
-    </Container>
+    <OptionsLayout>
+      <Option1 />
+    </OptionsLayout>
   );
 };
 
-export default Options;
-
-const Container = styled.div`
-  position: relative;
-  height: 100vh;
-  width: 100vw;
-`;
+export default Option;

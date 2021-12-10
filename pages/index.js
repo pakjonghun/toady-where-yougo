@@ -35,6 +35,7 @@ export default Home;
 
 const Main = styled.div`
   height: 100%;
+  min-width: 500px;
   background-image: url(${faker.image.image()});
   background-size: cover;
   background-position: center;
